@@ -1,22 +1,31 @@
 # Paper notes
-This repository contains my paper reading notes on deep learning and machine learning. **New year resolution for 2019: read at least one paper a week!**
+This repository is used to save my learning notes on deep learning, machine learning and computer vision.
+
+Note: A small goal is to read at least one good paper per week, including understand and test codes.
 
 ## Summary of Topics
 
 | Topics                                                  | Description                 |
 | ------------------------------------------------------------ | --------------------------- |
-| <kbd>DRL</kbd>                                               | Deep Reinforcement Learning |
-| <kbd>CLS</kbd>                                                | Classification               |
-| <kbd>OD</kbd>                                                | Object Detection            |
-| <kbd>InsSeg</kbd>, <kbd>SemSeg</kbd>, <kbd>PanSeg</kbd> | Instance/Semantic/Panoptic Segmentation |
-| <kbd>Video</kbd> | Video understanding |
-| <kbd>MI</kbd> | Medical Imaging |
-| <kbd>GAN</kbd> | Generative Adversarial Network |
-| <kbd>NIPS</kbd>, <kbd>CVPR</kbd>, <kbd>ICCV</kbd>, <kbd>ECCV</kbd>, etc | Conference papers           |
+| <kbd>CLS</kbd>                                                    | Classification               |
+| <kbd>OD</kbd>                                                     | Object Detection            |
+| <kbd>DRL</kbd>                                                    | Deep Reinforcement Learning |
+| <kbd>InsSeg</kbd>, <kbd>SemSeg</kbd>, <kbd>PanSeg</kbd>           | Instance/Semantic/Panoptic Segmentation |
+| <kbd>Video</kbd>                                                  | Video understanding |
+| <kbd>ML</kbd>                                                     | Machine Learning (non-DNN) |
+| <kbd>GAN</kbd>                                                    | Generative Adversarial Network |
+| <kbd>ARC</kbd>                                                    | Novel network architectures |
+| <kbd>TM</kbd>                                                    | Novel algorithm training schemes |
+| <kbd>Edge</kbd>                                                    | Fast models for edge computing |
+| <kbd>NIPS</kbd>, <kbd>CVPR</kbd>, <kbd>ICCV</kbd>, <kbd>ECCV</kbd>, <kbd>ICLR</kbd>, <kbd>ICML</kbd>, etc              | Conference papers |
+
+## 2019
+[1] [Pelee: A Real-Time Object Detection System on Mobile Devices](https://arxiv.org/abs/1804.06882) (Pelee) 
+[[Notes](paper_notes/Pelee_2018.md)] [[Code (Caffe)](https://github.com/Robert-JunWang/Pelee)] [[Code (Pytorch)](https://github.com/hoya012/pytorch-peleenet)] 
+<kbd>OD</kbd> <kbd>Edge</kbd> <kbd>ICLR</kbd>
 
 
-## 2019-02
-- [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset](https://arxiv.org/pdf/1705.07750.pdf) (I3D) [[Notes](paper_notes/quo_vadis_i3d.md)]<kbd>Video</kbd> <kbd>CVPR 2017</kbd>
+<!--   
 - [Initialization Strategies of Spatio-Temporal Convolutional Neural Networks](https://arxiv.org/pdf/1503.07274.pdf) [[Notes](paper_notes/quo_vadis_i3d.md)] <kbd>Video</kbd>
 - [Detect-and-Track: Efficient Pose Estimation in Videos](https://arxiv.org/pdf/1712.09184.pdf) [[Notes](paper_notes/quo_vadis_i3d.md)] <kbd>ICCV 2017</kbd> <kbd>Video</kbd>
 - [Deep Learning Based Rib Centerline Extraction and Labeling](https://arxiv.org/pdf/1809.07082) [[Notes](paper_notes/rib_centerline_philips.md)] <kbd>MI</kbd> <kbd>MICCAI 2018</kbd>
@@ -129,4 +138,4 @@ Here is the list of papers waiting to be read.
 - [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/pdf/1609.02907.pdf) <kbd>ICLR 2017</kbd>
 - [Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks](https://arxiv.org/pdf/1704.06803.pdf) <kbd>NIPS 2017</kbd>
 - [Graph Attention Networks](https://arxiv.org/pdf/1710.10903.pdf) <kbd>ICLR 2018</kbd>
-- [3D-SSD: Learning Hierarchical Features from RGB-D Images for Amodal 3D Object Detection](https://arxiv.org/pdf/1711.00238.pdf) (3D SSD)
+- [3D-SSD: Learning Hierarchical Features from RGB-D Images for Amodal 3D Object Detection](https://arxiv.org/pdf/1711.00238.pdf) (3D SSD) --> -->
